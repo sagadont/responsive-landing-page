@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+#navbar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: #2e87e0;
+    padding: 10px 0;
+    z-index: 1000;
+}
+
+#navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+#navbar li {
+    display: inline;
+}
+
+#navbar a {
+    text-decoration: none;
+    padding: 10px 20px;
+    transition: background-color 0.3s;
+}
+
+#navbar a.home {
+    background-color: #e23420;
+    color: #a4bd27;
+}
+
+#navbar a.about {
+    background-color: #37f744;
+    color: #05023d;
+}
+
+#navbar a.services {
+    background-color: #0f07f7;
+    color: #df1313;
+}
+
+#navbar a.contact {
+    background-color: #f4ea29; 
+    color: #2d22f3;
+}
+
+#navbar a:hover {
+    background-color: #fcb4b4;
+}
+
+#content {
+    padding-top: 50px; 
+    height: 2000px; 
+}
